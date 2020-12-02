@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right top, #fcee05, #ffb800, #ff7b44, #ff3876, #fd00a6, #eb00ae, #d700b6, #c000bd, #e70098, #fe006e, #ff0041, #ff0202);
+    font-family: 'Inconsolata', monospace;
+}
+.heading{
+    background-image: linear-gradient(to bottom, #051937, #002265, #002894, #0027c1, #2d12eb);
+    color: white;
+    width: 80%;
+    margin: 0px;
+    border: 2px solid whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 5px 5px 5px silver;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.subheading{
+    font-size: 18px;
+    background-color: whitesmoke;
+    color: blue;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.developer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: blue;
+    background-color: whitesmoke;
+    line-height: 2;
+}
+canvas, video{
+    border: 4px outset blue;
+    box-shadow: 5px 5px 5px whitesmoke;
+    border-radius: 20px;
+    float: none;
+}
